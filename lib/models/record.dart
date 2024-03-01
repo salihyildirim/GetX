@@ -1,8 +1,8 @@
 class Record {
   final int weight;
   final DateTime dateTime;
-  final String? note;
-  final String? photoUrl;
+  final String? note; //optional
+  final String? photoUrl; //optional
 
   Record({required this.weight,required this.dateTime, this.note, this.photoUrl});
 }
