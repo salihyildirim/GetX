@@ -1,8 +1,13 @@
-class Record {
-  final int weight;
-  final DateTime dateTime;
-  final String? note; //optional
-  final String? photoUrl; //optional
+import 'package:freezed_annotation/freezed_annotation.dart';
 
-  Record({required this.weight,required this.dateTime, this.note, this.photoUrl});
+part 'record.freezed.dart';
+part 'record.g.dart';
+
+@freezed
+class Record with _$Record{
+
+
+  factory Record({required int weight,required DateTime dateTime, String? note, String? photoUrl}) = _Record;
+
+  factory Record.fromJson(Map<String,dynamic> json) => _$RecordFromJson(json);
 }
