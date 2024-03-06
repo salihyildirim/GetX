@@ -3,7 +3,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 part 'record.freezed.dart';
 part 'record.g.dart';
 
-@freezed
+@freezed //freezed 2.4.7
 class Record with _$Record{
 
 

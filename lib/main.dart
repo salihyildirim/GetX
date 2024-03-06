@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      theme: ThemeData(appBarTheme: AppBarTheme(backgroundColor: Colors.black)),
       title: 'Weight Tracker',
       home: Home(),
     );
