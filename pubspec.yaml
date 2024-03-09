@@ -41,6 +41,8 @@ dependencies:
   freezed_annotation: ^2.4.1
   json_annotation: ^4.8.1
   animated_bottom_navigation_bar: ^1.3.3
+  font_awesome_flutter: ^10.7.0
+  numberpicker: ^2.1.2
 
 dev_dependencies:
   flutter_test:
